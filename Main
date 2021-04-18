@@ -1,0 +1,8 @@
+package mieszanie_dwoch_obrazow;
+import java.util.Scanner;
+
+public class mieszanie {
+
+    public static void main(String[] args) throws Exception{
+
+        new Mieszanie_dwoch_obrazow();
