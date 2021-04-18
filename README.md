@@ -4,10 +4,11 @@ Aby użyć transformacji dzielę obraz na 3 części, aby wykonać: negatyw, prz
 
 * obrazek przed transformacją:
 
-![zdj1](https://user-images.githubusercontent.com/80594097/115150132-5d295e80-a067-11eb-9e63-fca4a4e8da76.jpg)
+![zdj](https://user-images.githubusercontent.com/80594097/115160074-93320700-a096-11eb-8142-6d8558071a83.jpg)
+
 
 * obrazek po transformacji:
 
-![transformacja](https://user-images.githubusercontent.com/80594097/115150473-d70e1780-a068-11eb-846b-d68e0b756bb2.jpg)
+![transformacja_zdj](https://user-images.githubusercontent.com/80594097/115160073-92997080-a096-11eb-8e43-a35e90b5f3b4.jpg)
 
 
