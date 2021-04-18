@@ -1,0 +1,80 @@
+package mieszanie_dwoch_obrazow;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+public class algorytmy extends JPanel {
+
+    BufferedImage image;
+    BufferedImage image2;
+    int width;
+    int height;
+    static int wybor;
+
+    public algorytmy(int wybor,String zdj1,String zdj2,double alfa){
+        
+        try
+        {
+            File input = new File(zdj1);
+            File input2 = new File(zdj2);
+            image = ImageIO.read(input);
+            image2 = ImageIO.read(input2);
+            width = image.getWidth();
+            height= image.getHeight();
+
+            for(int i =0;i<height;i++){
+                for(int j=0;j<width;j++){
+
+                    Color c = new Color(image.getRGB(j,i));
+                    double red = (c.getRed());
+                    double green = (c.getGreen());
+                    double blue = (c.getBlue());
+                    double x,y,z;
+                    
+                    x=0;
+                    y=0;
+                    z=0;
+                    
+                    Color c2 = new Color(image2.getRGB(j,i));
+                    double red2 = (c2.getRed());
+                    double green2 = (c2.getGreen());
+                    double blue2 = (c2.getBlue());
+
+                    if ( i>0 && i<height && j>0 && j<width ) {
+
+        if(wybor==1) {
+
+            x=((1-alfa)*red2/255 + alfa *red/255)*255;
+            y=((1-alfa)*green2/255 + alfa *green/255)*255;
+            z=((1-alfa)*blue2/255 + alfa *blue/255)*255;
+
+            if(x>255){x=255; }
+            if(y>255){y=255; }
+            if(z>255){z=255; }
+            
+            if (x<0) {x = 0; }
+            if (y<0) {y = 0; }
+            if (z<0) {z = 0; }
+        }
+
+    } else {
+        x=red;
+        y=green;
+        z=blue;
+    }
+                    Color newColor = new Color((int)x,(int)y,(int)z);
+                    image.setRGB(j,i,newColor.getRGB());
+}
+            }
+                    File ouptut = new File("efekt.jpg");
+                    ImageIO.write(image, "jpg", ouptut);
+
+
+                    } catch(Exception e){}
+
+    }
+    algorytmy(int i, JTextField zdj_1, JTextField zdj_2, double parseDouble) {
+        throw new UnsupportedOperationException("Not supported yet."); }
