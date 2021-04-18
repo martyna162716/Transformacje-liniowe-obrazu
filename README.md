@@ -1,1 +1,1 @@
-# Transformacje-liniowe-obrazu
+# Transformacje liniowe obrazu (rozjaśnienie, przyciemnienie, negatyw)
