@@ -8,5 +8,6 @@ Aby użyć transformacji dzielę obraz na 3 części, aby wykonać: negatyw, prz
 
 * obrazek po transformacji:
 
-![transformacja](https://user-images.githubusercontent.com/80594097/115150435-a62de280-a068-11eb-8c98-c7030d88901d.jpg)
+![transformacja](https://user-images.githubusercontent.com/80594097/115150473-d70e1780-a068-11eb-846b-d68e0b756bb2.jpg)
+
 
