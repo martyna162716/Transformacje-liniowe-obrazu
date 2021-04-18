@@ -1,6 +1,6 @@
 # Transformacje liniowe obrazu (rozjaśnienie, przyciemnienie, negatyw)
 
-Aby użyć transformacji dzielę obraz na 3 części, aby wykonać: negatyw, przyciemnienie i rozjasnienie wykorzystujac wartosci pikseli.
+Aby użyć transformacji dzielę obraz na 3 części, aby wykonać: negatyw, przyciemnienie i rozjasnienie, wykorzystujac wartosci pikseli.
 
 * obrazek przed transformacją:
 
