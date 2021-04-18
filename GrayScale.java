@@ -15,7 +15,7 @@ public class GrayScale {
 
  try {
  //odczyt obrazu z pliku
- File input = new File("zdj1.jpg");
+ File input = new File("zdj.jpg");
  image = ImageIO.read(input);
  width = image.getWidth();
  height = image.getHeight();
@@ -38,19 +38,19 @@ public class GrayScale {
  z = 0;
 
 // przyciemnienie obrazu
-if ( i>=0 && i<=670 && j>=900 && j<=300 ) 
+if ( i>=0 && i<=533 && j>=250 && j<=800 ) 
  {
-     
- x = 150; //czerwony
- y = -50; // zielony
- z = -10; //niebieski
  
+ x = -20; //czerwony
+ y = -20; // zielony
+ z = -20; //niebieski
+
  }
 
 //rozjasnienie obrazu
- if ( i>=0 && i<=763 && j>=450 && j<=900 )
+ if ( i>=0 && i<=533 && j>=500 && j<=900 )  
  {
-     
+  
  x = 50;
  y = 50;
  z = 50;
@@ -58,12 +58,13 @@ if ( i>=0 && i<=670 && j>=900 && j<=300 )
  }
 
 // negatyw
- if ( i>=0 && i<=670 && j>=0 && j<=300 )
+ if ( i>=0 && i<=533 && j>=0 && j<=250 )
  {
-     
+  
  x = 0;
- y = -30;
- z = 60;
+ y = -15;
+ z = 95;
+  
  }
 
 
@@ -83,7 +84,7 @@ if ( i>=0 && i<=670 && j>=900 && j<=300 )
  } //koniec dwóch pętli po kolumnach i wierszach obrazu
  }
  //zapis do pliku zmodyfikowanego obrazu
- File ouptut = new File("transformacja.jpg");
+ File ouptut = new File("transformacja_zdj.jpg");
  ImageIO.write(image, "jpg", ouptut);
 
  } catch (IOException e) {}
