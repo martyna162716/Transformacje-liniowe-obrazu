@@ -17,16 +17,16 @@
 
 * zdjecie1:
 
-![zdjecie1](https://user-images.githubusercontent.com/80594097/115165665-47d82280-a0af-11eb-82c0-df7ba3918e89.jpg)
+![zdjecie1](https://user-images.githubusercontent.com/80594097/115238109-97edce00-a11d-11eb-8900-a672e0715ce3.jpg)
 
 
 * zdjecie2:
 
-![zdjecie2](https://user-images.githubusercontent.com/80594097/115165667-4870b900-a0af-11eb-8cfb-704f8178b961.jpg)
+![zdjecie2](https://user-images.githubusercontent.com/80594097/115238112-97edce00-a11d-11eb-87e4-45a4fe332fcb.jpg)
 
 
 * efekt_dwoch_zdjec:
 
-![efekt_dwoch_zdjec](https://user-images.githubusercontent.com/80594097/115165663-473f8c00-a0af-11eb-8bd3-abcfacbc62a8.jpg)
+![efekt_dwoch_zdjec](https://user-images.githubusercontent.com/80594097/115238106-97553780-a11d-11eb-9555-3b6f4c2f9760.jpg)
 
 
