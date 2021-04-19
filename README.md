@@ -29,4 +29,3 @@
 
 ![efekt_dwoch_zdjec](https://user-images.githubusercontent.com/80594097/115238106-97553780-a11d-11eb-9555-3b6f4c2f9760.jpg)
 
-
