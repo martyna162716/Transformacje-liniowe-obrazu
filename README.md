@@ -28,5 +28,5 @@
 * efekt_dwoch_zdjec:
 
 ![efekt_dwoch_zdjec](https://user-images.githubusercontent.com/80594097/115165663-473f8c00-a0af-11eb-8bd3-abcfacbc62a8.jpg)
-![3333](https://user-images.githubusercontent.com/80594097/115193646-bab3be80-a0ec-11eb-8134-116c4fbdabff.png)
+
 
