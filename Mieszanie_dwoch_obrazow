@@ -32,8 +32,8 @@ public class Mieszanie_dwoch_obrazow extends JFrame implements ActionListener {
 
         frame.add(combobox);
         frame.add(button1);
-        frame.add(zdj_1);
-        frame.add(zdj_2);
+        frame.add(zdjecie_1);
+        frame.add(zdjecie_2);
         frame.add(label1);
         frame.add(label2);
         frame.add(label3);
@@ -50,13 +50,13 @@ public class Mieszanie_dwoch_obrazow extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         if(e.getSource()==button1){
-            String zdj1 = zdj_1.getText();
-            String zdj2 = zdj_2.getText();
+            String zdj1 = zdjecie_1.getText();
+            String zdj2 = zdjecie_2.getText();
 
            
             if(combobox.getSelectedItem()=="przezroczystosc"){
 
-                algorytmy algorytmy = new algorytmy(1, zdj1, zdj2,Double.parseDouble(alfa.getText()));
+                algorytmy algorytmy = new algorytmy(1, zdjecie1, zdjecie2, Double.parseDouble(alfa.getText()));
                 alfa.setText("");
             }
         }
