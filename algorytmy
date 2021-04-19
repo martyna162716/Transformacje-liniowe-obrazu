@@ -14,7 +14,7 @@ public class algorytmy extends JPanel {
     int height;
     static int wybor;
 
-    public algorytmy(int wybor,String zdj1,String zdj2,double alfa){
+    public algorytmy(int wybor, String zdjecie1, String zdjecie2, double alfa){
         
         try
         {
@@ -69,12 +69,12 @@ public class algorytmy extends JPanel {
                     image.setRGB(j,i,newColor.getRGB());
 }
             }
-                    File ouptut = new File("efekt.jpg");
+                    File ouptut = new File("efekt_dwoch_zdjec.jpg");
                     ImageIO.write(image, "jpg", ouptut);
 
 
                     } catch(Exception e){}
 
     }
-    algorytmy(int i, JTextField zdj_1, JTextField zdj_2, double parseDouble) {
+    algorytmy(int i, JTextField zdjecie_1, JTextField zdjecie_2, double parseDouble) {
         throw new UnsupportedOperationException("Not supported yet."); }
