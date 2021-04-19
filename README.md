@@ -13,7 +13,7 @@
 
 
 
-2. Drugi program jest mieszaniem dwóch obrazów. Po wczytaniu przez program zdjęć (nazwy: zdjecie1.jpg, zdjecie2.jpg) łączę zdjęcia o takich samych wymiarach za pomocą przezroczystości. Główną klasą mieszania obrazów jest mieszanie(). Reszta klas to: Mieszanie_dwoch_obrazow i algorytmy. Klasy te wczytują zdjecie1.jpg i zdjecie2.jpg, po czym tworzą nowe zdjęcie o nazwie: efekt_dwoch_zdjec. 
+2. Drugi program jest mieszaniem dwóch obrazów. Po wczytaniu przez program zdjęć (nazwy: zdjecie1.jpg, zdjecie2.jpg) łączę zdjęcia o takich samych wymiarach za pomocą przezroczystości. Główną klasą mieszania obrazów jest mieszanie(). Reszta klas to: Mieszanie_dwoch_obrazow i algorytmy. Klasy te wczytują: zdjęcie nr 1 (nazwa: zdjecie1.jpg) i zdjęcie nr 2 (nazwa: zdjecie2.jpg), po czym tworzą nowe zdjęcie o nazwie: efekt_dwoch_zdjec. 
 
 * zdjecie1:
 
