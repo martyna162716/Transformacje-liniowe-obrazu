@@ -50,8 +50,8 @@ public class Mieszanie_dwoch_obrazow extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         if(e.getSource()==button1){
-            String zdj1 = zdjecie_1.getText();
-            String zdj2 = zdjecie_2.getText();
+            String zdjecie1 = zdjecie_1.getText();
+            String zdjecie2 = zdjecie_2.getText();
 
            
             if(combobox.getSelectedItem()=="przezroczystosc"){
